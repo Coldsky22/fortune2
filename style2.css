@@ -50,7 +50,7 @@ p {
 @media (max-width: 961px) {
   .wheel {
     width: 80%;
-    bottom: -10%;
+    bottom: 20%;
   }
   p {
   font-size: 3vw;
@@ -87,6 +87,7 @@ p {
   }
 
 }
+
 
 
 
