@@ -186,6 +186,10 @@ a {
   color: #ffffff;
 }
 @media (max-width: 960px) {
+  
+  body {
+     background-image: none;
+  }
     h2 {
         font-size: 3vw;
     }
@@ -279,6 +283,7 @@ a {
   top: 10vw;
 }
 }
+
 
 
 
