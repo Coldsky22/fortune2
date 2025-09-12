@@ -31,7 +31,7 @@ body {
   background-color: #d7f252;
   background-image: url(./img/bg.png);
   background-repeat: no-repeat;
-  background-size: 80%;
+  background-size: cover;
   background-position: center;
   display: flex;
   flex-direction: column;
@@ -52,7 +52,7 @@ h2 {
   background-color: #fff;
   background-image: url(./img/container.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 90%;
   background-position: right bottom;
   border-radius: 2vw;
   padding: 5vw;
@@ -276,4 +276,5 @@ a {
     }
 
 }
+
 
