@@ -10,7 +10,7 @@ body {
   justify-content: space-around;
 }
 .wheel {
-  width: 72%;
+  width: 1000px;
   position: absolute;
   bottom: -84%;
   transition: transform 6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -83,5 +83,6 @@ p {
   }
 
 }
+
 
 
