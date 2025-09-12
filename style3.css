@@ -81,7 +81,7 @@ h2 {
     font-size: 2vw;
     text-align: center;
     position: relative;
-    top: 4vw;
+    top: 3vw;
 }
 @media (max-width: 960px) {
     .bg {
@@ -122,6 +122,7 @@ h2 {
     }
 
 }
+
 
 
 
