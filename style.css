@@ -52,7 +52,7 @@ h2 {
   background-color: #fff;
   background-image: url(./img/container.png);
   background-repeat: no-repeat;
-  background-size: 90%;
+  background-size: 95%;
   background-position: right bottom;
   border-radius: 2vw;
   padding: 5vw;
@@ -276,5 +276,6 @@ a {
     }
 
 }
+
 
 
