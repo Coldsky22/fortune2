@@ -41,9 +41,9 @@ body {
   z-index: 10;
 }
 .food {
-    width: 27%;
+    width: 25%;
     position: relative;
-    top: -3vw;
+    top: -7vw;
     animation: scale .7s ease-in-out;
 } 
 @keyframes scale {
@@ -119,4 +119,5 @@ h2 {
         padding: 4vw;
         font-size: 4vw;
     }
+
 }
