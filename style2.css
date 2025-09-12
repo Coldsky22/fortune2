@@ -47,7 +47,7 @@ p {
   z-index: 1000;
   font-size: 1vw;
 }
-@media (max-width: 961px) {
+@media (max-width: 960px) {
   .wheel {
     width: 80%;
     bottom: 20%;
@@ -87,6 +87,7 @@ p {
   }
 
 }
+
 
 
 
