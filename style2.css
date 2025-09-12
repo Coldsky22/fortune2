@@ -63,7 +63,7 @@ p {
   }
   .wheel {
     width: 200%;
-    bottom: -50%;
+    bottom: -40%;
   }
   .union {
     width: 20%;
@@ -82,11 +82,12 @@ p {
   }
   p {
     width: 95%;
-    top: 90%;
+    top: 95%;
     font-size: 4vw;
   }
 
 }
+
 
 
 
