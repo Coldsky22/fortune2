@@ -62,12 +62,12 @@ p {
     font-size: 7vw;
   }
   .wheel {
-    width: 250%;
-    bottom: -90%;
+    width: 150%;
+    bottom: -70%;
   }
   .union {
-    width: 40%;
-    top: 40%;
+    width: 30%;
+    top: 20%;
   }
   .gradient {
     height: 40%;
@@ -87,6 +87,7 @@ p {
   }
 
 }
+
 
 
 
