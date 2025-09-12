@@ -62,8 +62,8 @@ p {
     font-size: 7vw;
   }
   .wheel {
-    width: 150%;
-    bottom: -10%;
+    width: 200%;
+    bottom: -30%;
   }
   .union {
     width: 20%;
@@ -71,22 +71,23 @@ p {
   }
   .gradient {
     height: 40%;
-    bottom: -80%;
+    bottom: 10%;
     background: linear-gradient(#d7f25200, #d7f252);
   }
   input[type="submit"] {
-    bottom: -50%;
+    bottom: 10%;
     width: 90%;
     padding: 5vw;
     font-size: 5vw;
   }
   p {
     width: 90%;
-    top: 152%;
+    top: 90%;
     font-size: 4vw;
   }
 
 }
+
 
 
 
