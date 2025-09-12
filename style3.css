@@ -43,7 +43,7 @@ body {
 .food {
     width: 25%;
     position: relative;
-    top: -7vw;
+    top: -15vw;
     animation: scale .7s ease-in-out;
 } 
 @keyframes scale {
@@ -121,3 +121,4 @@ h2 {
     }
 
 }
+
