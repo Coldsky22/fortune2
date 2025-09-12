@@ -63,11 +63,11 @@ p {
   }
   .wheel {
     width: 150%;
-    bottom: -70%;
+    bottom: -10%;
   }
   .union {
-    width: 30%;
-    top: 20%;
+    width: 20%;
+    top: 30%;
   }
   .gradient {
     height: 40%;
@@ -87,6 +87,7 @@ p {
   }
 
 }
+
 
 
 
