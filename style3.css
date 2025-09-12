@@ -41,7 +41,7 @@ body {
   z-index: 10;
 }
 .food {
-    width: 30%;
+    width: 27%;
     position: relative;
     top: -13vw;
     animation: scale .7s ease-in-out;
@@ -121,6 +121,7 @@ h2 {
     }
 
 }
+
 
 
 
