@@ -49,7 +49,7 @@ p {
 }
 @media (max-width: 960px) {
   .wheel {
-    width: 500px;
+    width: 300px;
     bottom: -50%;
   }
 }
@@ -84,6 +84,7 @@ p {
   }
 
 }
+
 
 
 
