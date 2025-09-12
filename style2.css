@@ -12,7 +12,7 @@ body {
 .wheel {
   width: 1000px;
   position: absolute;
-  bottom: -84%;
+  bottom: -50%;
   transition: transform 6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 .gradient {
@@ -26,13 +26,13 @@ body {
 .union {
   width: 10%;
   position: absolute;
-  top: 20%;
+  top: 25%;
   left: 50%;
   transform: translateX(-50%);
 }
 h2 {
   position: absolute;
-  top: 5%;
+  top: 10%;
 }
 input[type="submit"] {
   position: absolute;
@@ -83,6 +83,7 @@ p {
   }
 
 }
+
 
 
 
