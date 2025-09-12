@@ -191,7 +191,7 @@ a {
     }
     .container {
         background-image: url(./img/container-adaptive.png);
-        background-size: 110%;
+        background-size: cover;
         background-position: 70% 70%;
     }
     .text {
@@ -277,6 +277,7 @@ a {
     }
 
 }
+
 
 
 
