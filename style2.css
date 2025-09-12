@@ -52,6 +52,9 @@ p {
     width: 80%;
     bottom: -50%;
   }
+  p {
+  font-size: 3vw;
+}
 }
 @media (max-width: 480px) {
   h2 {
@@ -84,6 +87,7 @@ p {
   }
 
 }
+
 
 
 
