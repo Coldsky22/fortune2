@@ -31,7 +31,7 @@ body {
   background-color: #d7f252;
   background-image: url(./img/bg.png);
   background-repeat: no-repeat;
-  background-size: 90%;
+  background-size: 80%;
   background-position: center;
   display: flex;
   flex-direction: column;
@@ -276,3 +276,4 @@ a {
     }
 
 }
+
