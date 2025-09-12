@@ -26,13 +26,13 @@ body {
 .union {
   width: 10%;
   position: absolute;
-  top: 30%;
+  top: 25%;
   left: 50%;
   transform: translateX(-50%);
 }
 h2 {
   position: relative;
-  top: -5%;
+  top: -25%;
 }
 input[type="submit"] {
   position: absolute;
@@ -81,4 +81,5 @@ p {
     top: 152%;
     font-size: 4vw;
   }
+
 }
