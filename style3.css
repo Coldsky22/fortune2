@@ -118,7 +118,7 @@ h2 {
 @media (max-width: 480px) {
      h2 {
         top: 10vh;
-        font-size: 7vw;
+        font-size: 5vw;
     }
 .bg {
         width: 300vw;
@@ -135,10 +135,11 @@ h2 {
         font-size: 4vw;
     }
 .badge {
-    scale: 3;
-    font-size: 2vw;
+    scale: 2.5;
+    font-size: 1.5vw;
   }
 }
+
 
 
 
