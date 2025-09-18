@@ -41,7 +41,7 @@ body {
   z-index: 10;
 }
 .food {
-    width: 23%;
+    width: 22%;
     position: relative;
     top: -11vw;
     animation: scale .7s ease-in-out;
@@ -82,7 +82,6 @@ h2 {
     text-align: center;
     position: relative;
     top: 3vw;
-    line-height: 3vw;
 }
 .badge {
     display: inline-block;
@@ -133,6 +132,7 @@ h2 {
     }
 
 }
+
 
 
 
