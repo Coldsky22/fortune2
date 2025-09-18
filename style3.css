@@ -134,8 +134,12 @@ h2 {
         padding: 4vw;
         font-size: 4vw;
     }
-
+.badge {
+    scale: 3;
+    font-size: 2vw;
+  }
 }
+
 
 
 
