@@ -41,7 +41,7 @@ body {
   z-index: 10;
 }
 .food {
-    width: 22%;
+    max-width: 300px;
     position: relative;
     top: -11vw;
     animation: scale .7s ease-in-out;
@@ -85,7 +85,7 @@ h2 {
 }
 .badge {
     display: inline-block;
-    padding: .5vw 1.5vw;
+    padding: .7vw 1.5vw;
     background-color: #00b923;
     border-radius: 10vw;
     color: #fff;
@@ -132,6 +132,7 @@ h2 {
     }
 
 }
+
 
 
 
