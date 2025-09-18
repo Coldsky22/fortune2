@@ -118,7 +118,7 @@ h2 {
 @media (max-width: 480px) {
      h2 {
         top: 10vh;
-        font-size: 7vw;
+        font-size: 6vw;
        
     }
 .bg {
@@ -141,6 +141,7 @@ h2 {
   margin-bottom: 5vw;
   }
 }
+
 
 
 
