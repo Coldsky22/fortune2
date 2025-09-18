@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
     try {
       const stored = JSON.parse(localStorage.getItem('prize'));
       console.log(stored);
-      document.querySelector('h2').textContent = `Ваше бесплатное блюдо: ${stored.name}`;
+      document.querySelector('h2').innerHTML = `<span class="badge">⭐️ ${stored.probability}</span> <br> Ваше бесплатное блюдо: <br> ${stored.name}`;
       document.querySelector('.food').src = `${stored.image}`;
     } catch (error) {
       console.error("Ошибка чтения данных из localStorage:", error);
