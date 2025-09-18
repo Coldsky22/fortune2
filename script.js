@@ -87,7 +87,7 @@ document
     await new Promise((resolve) => setTimeout(resolve, 500));
     if (phoneStorage.isPhoneUsed(phone)) {
       showToast(
-        "Этот номер уже участвовал в розыгрыше!",
+        "Этот номер уже участвовал в&nbsp;розыгрыше!",
         "Каждый номер может участвовать только один раз.",
         "error"
       );
@@ -124,4 +124,5 @@ function showToast(title, description, type = "info") {
       }
     }, 300);
   }, 4000);
+
 }
