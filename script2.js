@@ -82,9 +82,6 @@ function spinWheel() {
   }
   const probabilityIndex = deg.indexOf(selectedDegree);
   const probability = probabilities[probabilityIndex];
-  console.log(selectedDegree);
-  console.log(probabilityIndex);
-  console.log(probability);
   const randomDegree = selectedDegree;
   const fullRotations = 360 + randomDegree;
   const newRotation = currentRotation + fullRotations;
@@ -116,6 +113,7 @@ spinButton.addEventListener("click", () => {
     location.href = "./index3.html";
   }, 8000);
 });
+
 
 
 
