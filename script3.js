@@ -50,4 +50,33 @@ document.addEventListener("DOMContentLoaded", () => {
     } catch (error) {
       console.error("Ошибка чтения данных из localStorage:", error);
     }
+
 });
+
+
+
+function sendDataToGoogleSheet() {
+  const userDataJSON = localStorage.getItem('prize');
+  if (!userDataJSON) {
+    console.error('empty');
+    return;
+  }
+  const userData = JSON.parse(userDataJSON);
+  const dataToSend = [userData.name, userData.probability, new Date().toLocaleString()]; 
+  const scriptUrl = 'https://script.google.com/macros/s/AKfycbweUzkcecVRv9Inn8k-MIAzDxYXVkQM6A6iahi1SO6fbor44NUjIcWJidRUOpV0lyfWTQ/exec';
+  fetch(scriptUrl, {
+    method: 'POST',
+    mode: 'no-cors', 
+    headers: {
+      'Content-Type': 'text/plain; charset=utf-8', 
+    },
+    body: JSON.stringify(dataToSend), 
+  })
+  .then(() => {
+    console.log('success');
+  })
+  .catch((error) => {
+    console.error('error', error);
+  });
+}
+sendDataToGoogleSheet();
