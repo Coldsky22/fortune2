@@ -101,19 +101,19 @@ h2 {
         rotate: 0;
     }
   20% {
-    scale: .2;
+    scale: 1;
     rotate: 5deg;
   }
   40% {
-    scale: .4;
+    scale: 1;
     rotate: -5deg;
   }
   60% {
-    scale: .6;
+    scale: 1;
     rotate: 5deg;
   }
   80% {
-    scale: .8;
+    scale: 1;
     rotate: -5deg;
   }
     100% {
@@ -139,8 +139,34 @@ h2 {
         font-size: 2vw;
     }
   .badge {
+   animation: badge 3s ease-in-out;
+}
+@keyframes badge {
+    0% {
+        scale: 0;
+        rotate: 0;
+    }
+  20% {
     scale: 2;
+    rotate: 5deg;
   }
+  40% {
+    scale: 2;
+    rotate: -5deg;
+  }
+  60% {
+  scale: 2;
+    rotate: 5deg;
+  }
+  80% {
+  scale: 2;
+    rotate: -5deg;
+  }
+    100% {
+        scale: 2;
+        rotate: 0;
+    }
+}
 }
 @media (max-width: 480px) {
      h2 {
@@ -163,11 +189,38 @@ h2 {
         font-size: 4vw;
     }
 .badge {
-    scale: 3.5;
     font-size: 1.5vw;
   margin-bottom: 5vw;
-  }
+    animation: badge 3s ease-in-out;
 }
+@keyframes badge {
+    0% {
+        scale: 0;
+        rotate: 0;
+    }
+  20% {
+    scale: 3.5;
+    rotate: 5deg;
+  }
+  40% {
+    scale: 3.5;
+    rotate: -5deg;
+  }
+  60% {
+   scale: 3.5;
+    rotate: 5deg;
+  }
+  80% {
+   scale: 3.5;
+    rotate: -5deg;
+  }
+    100% {
+        scale: 3.5;
+        rotate: 0;
+    }
+}
+}
+
 
 
 
