@@ -44,7 +44,6 @@ document.addEventListener("DOMContentLoaded", () => {
     createConfetti();
     try {
       const stored = JSON.parse(localStorage.getItem('prize'));
-      console.log(stored);
       document.querySelector('h2').innerHTML = `<span class="badge">⭐️ ${stored.probability}</span> <br> Ваше бесплатное блюдо: <br> ${stored.name}`;
       document.querySelector('.food').src = `${stored.image}`;
     } catch (error) {
@@ -109,5 +108,6 @@ function showToast(title, description, type = "info") {
     }, 300);
   }, 4000);
 }
+
 
 
