@@ -93,23 +93,23 @@ h2 {
     margin-bottom: 1vw;
     text-transform: uppercase;
     font-size: 1vw;
-  animation: badge 3s ease-in-out infinite;
+  animation: badge 5s ease-in-out infinite;
 }
 @keyframes badge {
     0% {
         rotate: 0;
     }
   20% {
-    rotate: 5deg;
+    rotate: 2deg;
   }
   40% {
-    rotate: -5deg;
+    rotate: -2deg;
   }
   60% {
-    rotate: 5deg;
+    rotate: 2deg;
   }
   80% {
-    rotate: -5deg;
+    rotate: -2deg;
   }
     100% {
         rotate: 0;
@@ -159,9 +159,10 @@ h2 {
 .badge {
   scale: 3.5;
     font-size: 1.5vw;
-  margin-bottom: 5vw;
+  margin-bottom: 7vw;
 }
 }
+
 
 
 
