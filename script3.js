@@ -56,13 +56,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 function sendDataToGoogleSheet() {
+  const phone = JSON.parse(localStorage.getItem('wheel-participants'));
   const userDataJSON = localStorage.getItem('prize');
   if (!userDataJSON) {
     console.error('empty');
     return;
   }
   const userData = JSON.parse(userDataJSON);
-  const dataToSend = [userData.name, userData.probability, new Date().toLocaleString()]; 
+  const dataToSend = [phone[phone.length-1], userData.name, userData.probability, new Date().toLocaleString()]; 
   const scriptUrl = 'https://script.google.com/macros/s/AKfycbweUzkcecVRv9Inn8k-MIAzDxYXVkQM6A6iahi1SO6fbor44NUjIcWJidRUOpV0lyfWTQ/exec';
   fetch(scriptUrl, {
     method: 'POST',
@@ -108,4 +109,5 @@ function showToast(title, description, type = "info") {
     }, 300);
   }, 4000);
 }
+
 
