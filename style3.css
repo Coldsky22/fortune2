@@ -9,6 +9,9 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+input[type="submit"] {
+ width: 30%;
+}
 .submit {
   position: absolute;
   bottom: 5%;
@@ -151,17 +154,32 @@ h2 {
     .food {
         width: 60%;
     } 
-    .submit {
-        width: 80%;
-        padding: 4vw;
-        font-size: 4vw;
+
+    .submit,
+  input[type="submit"]{
+        width: 90vw;
+        padding: 5vw;
+        font-size: 4.5vw;
     }
 .badge {
   scale: 3.5;
     font-size: 1.5vw;
   margin-bottom: 7vw;
+  padding: 1vw 1.5vw; 
 }
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

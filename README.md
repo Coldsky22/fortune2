@@ -1,1 +1,1 @@
-# fortune2
+# qummy
