@@ -29,7 +29,7 @@ body {
   width: 100vw;
   height: 100vh;
   background-color: #d7f252;
-  background-image: url(./img/bg.png);
+  background-image: url(./img/bg.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -50,7 +50,7 @@ h2 {
   width: 55vw;
   height: 67vh;
   background-color: #fff;
-  background-image: url(./img/container.png);
+  background-image: url(./img/container.webp);
   background-repeat: no-repeat;
   background-size: 95%;
   background-position: right bottom;
@@ -194,7 +194,7 @@ a {
         font-size: 3vw;
     }
     .container {
-        background-image: url(./img/container-adaptive.png);
+        background-image: url(./img/container-adaptive.webp);
         background-size: cover;
         background-position: 70% 70%;
     }
@@ -241,7 +241,7 @@ a {
     .container {
         width: 80vw;
         height: 75vh;
-        background-image: url(./img/container-adaptive.png);
+        background-image: url(./img/container-adaptive.webp);
         background-position: 70% 70%;
         padding: 5vw;
     }
@@ -280,6 +280,7 @@ a {
         font-size: 5vw;
     }
 }
+
 
 
 
