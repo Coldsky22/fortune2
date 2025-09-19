@@ -80,3 +80,32 @@ function sendDataToGoogleSheet() {
   });
 }
 sendDataToGoogleSheet();
+
+document.getElementById("submit").addEventListener("click", () => {
+showToast(
+        "Возьмите свое блюдо из холодильника","", "error");
+});
+function showToast(title, description, type = "info") {
+  const toastContainer = document.getElementById("toastContainer");
+  const toast = document.createElement("div");
+  toast.className = `toast ${type}`;
+  toast.innerHTML = `
+                <div class="toast-title">${title}</div>
+                ${
+                  description
+                    ? `<div class="toast-description">${description}</div>`
+                    : ""
+                }
+            `;
+  toastContainer.appendChild(toast);
+  setTimeout(() => toast.classList.add("show"), 100);
+  setTimeout(() => {
+    toast.classList.remove("show");
+    setTimeout(() => {
+      if (toastContainer.contains(toast)) {
+        toastContainer.removeChild(toast);
+      }
+    }, 300);
+  }, 4000);
+}
+
