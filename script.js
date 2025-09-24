@@ -1,5 +1,5 @@
-const API_SEND_SMS_URL = 'https://review-logistic-admin-review.growfood.pro/api/front/v1/marketing/activities/send-sms';
-const API_VERIFY_CODE_URL = 'https://review-logistic-admin-review.growfood.pro/api/front/v1/marketing/verify-code';
+const API_SEND_SMS_URL = 'https://admin.growfood.pro/api/front/v1/marketing/activities/send-sms';
+const API_VERIFY_CODE_URL = 'https://admin.growfood.pro/api/front/v1/marketing/verify-code';
 
 const phoneStorage = {
   storageKey: "wheel-participants",
